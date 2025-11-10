@@ -12,10 +12,7 @@ if len(sys.argv) == 6:
     print("User provided marks:")
 else:
     script_name = sys.argv[0]
-    # Default marks
-    m1, m2, m3, m4, m5 = 80, 75, 90, 85, 70
-    print("No input given - using default marks:")
-
+    
 # Calculate average
 average = (m1 + m2 + m3 + m4 + m5) / 5
 
